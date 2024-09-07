@@ -111,7 +111,8 @@ footer {
     position: absolute; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
-    position: relative;
+    position: relative;  
+    position: fixed; /* Posiciona o rodapé fixo na parte inferior da página */
 }
 
 @media (max-width: 768px) {
