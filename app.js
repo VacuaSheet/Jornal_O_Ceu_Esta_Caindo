@@ -22,8 +22,8 @@ function pesquisar() {
   
     // Itera sobre cada dado da pesquisa
     for (let dado of dados) { 
-      titulo = removerAcentos(dado.titulo);
-      descricao = removerAcentos(dado.descricao);
+      titulo = dado.titulo;
+      descricao = dado.descricao;
       let tags = dado.tags.map(tag => removerAcentos(tag));
       // Constrói o HTML para cada resultado da pesquisa, formatando os dados
       if (titulo.includes(campoPesquisa) || descricao.includes(campoPesquisa) || tags.includes(campoPesquisa)) {
