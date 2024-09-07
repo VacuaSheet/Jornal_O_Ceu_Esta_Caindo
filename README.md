@@ -1,4 +1,4 @@
-## **README.md**
+## **Jornal_O_Ceu_Esta_Caindo- Feito no processo de apreedizado da imerssão Dev com Google Gemini. 02/09/2024 a 06/09/2024
 
 ### **Procurando Notícia? Aqui tem! **
 
